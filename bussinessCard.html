@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card - Umalavanya Chintapanti</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .business-card {
+            display: flex;
+            width: 600px;
+            height: 350px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        .photo-side {
+            width: 40%;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .photo-placeholder {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #777;
+            font-size: 14px;
+            text-align: center;
+            border: 3px solid #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .details-side {
+            width: 60%;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .contact-info {
+            margin-top: 15px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .contact-item i {
+            margin-right: 10px;
+            color: #666;
+            width: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="business-card">
+        <div class="photo-side">
+            <div class="photo-placeholder">
+                [Your Photo Here]
+            </div>
+        </div>
+        <div class="details-side">
+            <div class="name">Umalavanya Chintapanti</div>
+            <div class="title">Full Stack Web Developer</div>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i>📱</i> +1 (123) 456-7890
+                </div>
+                <div class="contact-item">
+                    <i>✉️</i> email@example.com
+                </div>
+                <div class="contact-item">
+                    <i>🌐</i> www.yourwebsite.com
+                </div>
+                <div class="contact-item">
+                    <i>🏢</i> Your Company Name
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
